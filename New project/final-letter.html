@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To mi amor</title>
+  <link rel="stylesheet" href="public/css/style.css">
+</head>
+<body class="screen-three">
+  <div id="hearts-bg" aria-hidden="true"></div>
+
+  <main class="container final-letter-container">
+    <button id="lang-toggle" class="lang-toggle" type="button" aria-label="Toggle letter language" aria-pressed="false">
+      <span class="lang-option en">English</span>
+      <span class="lang-thumb" aria-hidden="true"></span>
+      <span class="lang-option es">Spanish</span>
+    </button>
+    <div class="toggle-heart-note" aria-hidden="true">
+      <span>Love</span>
+    </div>
+
+    <article class="letter-paper full-page-letter" aria-labelledby="letter-title">
+      <h2 id="letter-title">For Mi Guapo</h2>
+      <p id="letter-part-1" class="love-lines"></p>
+
+      <figure class="letter-inline-gif left">
+        <img id="letter-gif-left" alt="Love gif left" loading="lazy">
+        <figcaption id="letter-gif-left-fallback" class="gif-fallback small" hidden>Love</figcaption>
+      </figure>
+
+      <p id="letter-part-2" class="love-lines"></p>
+
+      <figure class="letter-inline-gif right">
+        <img id="letter-gif-right" alt="Love gif right" loading="lazy">
+        <figcaption id="letter-gif-right-fallback" class="gif-fallback small" hidden>Kiss</figcaption>
+      </figure>
+
+      <p id="letter-part-3" class="love-lines"></p>
+      <figure id="letter-gif-third-figure" class="letter-inline-gif left" hidden>
+        <img id="letter-gif-third" alt="Love gif third" loading="lazy">
+        <figcaption id="letter-gif-third-fallback" class="gif-fallback small" hidden>Love</figcaption>
+      </figure>
+
+      <p id="letter-part-4" class="love-lines"></p>
+    </article>
+
+    <button id="restart-button" class="restart-heart" type="button" aria-label="Restart to beginning">
+      <span>Restart</span>
+    </button>
+  </main>
+
+  <script src="public/js/script.js"></script>
+</body>
+</html>
